@@ -1,0 +1,55 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+button:focus {
+  outline:0;
+}
+
+
+.start {
+  background: black url(../img/bg-start.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-nav{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start * {
+  color: white;
+}
+
+.blog-preview * {
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00151d; 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b43300;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #752100; 
+}
