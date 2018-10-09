@@ -1,6 +1,9 @@
 body {
   box-sizing: border-box;
   margin: 0px auto 0px auto;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 180px; /* Should be equal to the height of your footer */
 }
 
 h1 {
@@ -15,7 +18,7 @@ p {
   letter-spacing: -1px;
 }
 
-.start {
+#start {
   min-height: 1080px;
   margin: 0px;
   width: 100%;
@@ -72,7 +75,7 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 70%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #7cff9b;
@@ -85,15 +88,15 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 80%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #e100ff;
   padding-left: 13px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   visibility: hidden;
 }
 
@@ -103,15 +106,15 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 80%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #ffde00;
   padding-left: 13px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   visibility: hidden;
 }
 
@@ -121,15 +124,15 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 80%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #c20097;
   padding-left: 13px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   visibility: hidden;
 }
 
@@ -139,15 +142,15 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 80%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #b1ff09;
   padding-left: 13px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   visibility: hidden;
 }
 
@@ -157,15 +160,15 @@ header {
   right: 0;
   display: inline-block;
   height: 1em;
-  width: 80%;
+  width: 75%;
   border-bottom: 3px solid;
   margin-top: 20px;
   color: #00c6ff;
   padding-left: 13px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   visibility: hidden;
 }
 
@@ -405,5 +408,55 @@ header {
   transition:inherit;
 }
 
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+}
 
+.footer-container {
+  padding-top: 50px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.footer-logo {
+  margin-bottom: 1em;
+}
+
+.footer-nav {
+  margin-bottom: 2em;
+}
+
+footer a {
+  color:white;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-copy, .footer-right a, .footer-right a:hover, .footer-right a:visited,
+.footer-right a:active {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.footer-social i {
+  font-size: 35px;
+  color: white;
+  margin-right: 12px;
+}
+
+.footer-copy {
+  float: right;
+}
 
